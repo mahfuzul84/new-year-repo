@@ -85,3 +85,40 @@ body{
     font-weight: 400;
     margin-left: 110px;
 }
+/* plans section styles */
+img{
+    width: 93px;
+    height: 93px;
+}
+.plans-container{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.plans-title{
+    color:#151414;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 24px;
+}
+.plans-description{
+    color:#151414;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+}
+.main-plans{
+    color:#151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
