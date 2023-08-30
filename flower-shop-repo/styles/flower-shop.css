@@ -1,0 +1,291 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* banner section styles */
+.banner-img{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 240px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 850px;
+    align-items: center;
+    background-color: rgb(229, 84, 115,0.10);   
+}
+.banner-title{
+    color: #272727;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    margin-top: 197px;
+    padding-left: 240px;
+}
+.banner-description{
+    width: 400px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 240px;
+    color: rgba(39,39,39,0.60);
+    font-size: 18px;font-style: normal;
+    font-weight: 400;
+}
+.btn-primary{
+    padding: 20px 43px;
+    margin-left: 240px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #ffa500;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-primary:hover{
+    color: blue;
+}
+/* Flower Section Styles */
+.flower-title{
+    color: #272727;
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.flower-description{
+    color: rgba(39,39,39,0.60);
+    text-align: center;
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px 63px;
+}
+/* Box Section styles */
+.box-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 48px;
+}
+.box-1{
+    width: 310px;
+    height: 428px;
+    background-color: rgb(229, 84, 115,0.10);
+    border-radius: 45% 45% 0% 0%; 
+}
+.box-2{
+    width: 310px;
+    height: 428px;
+    background-color: rgb(173, 216, 230);
+    border-radius: 45% 45% 0% 0%;  
+}
+.box-3{
+    width: 310px;
+    height: 428px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 45% 45% 0% 0%; 
+}
+.flower-text{
+    color: #272727;
+    text-align: center;
+    font-family: lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 32px;
+    text-decoration-line: underline;
+}
+/* icons section styles */
+.div-container{
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    height: 200px;
+    margin-top: 128px;
+    margin-left: 90px;
+    margin-right: 240px;
+    gap: 100px;
+    background-color: rgba(39,39,39,0.05);
+}
+.icon-text{
+    color: rgba(39,39,39,0.80);
+    text-align: center;
+    font-family: lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 100px;
+}
+/* discount section styles */
+.offer{
+    color: #272727;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.discount{
+    color: #E55473;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.discount-description{
+    color: rgba(39,39,39,0.60);
+    align-items: center;
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn-discount{
+    color: #FFF;
+    font-family: lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: rgb(242, 72, 10);
+    padding: 20px 43px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+.btn-discount:hover{
+    color: rgb(232, 232, 13);
+}
+.discount-container{
+    display: flex;
+    justify-content: space-around;
+    height: 420px;
+    align-items: center;
+    background-color: rgb(229, 84, 115,0.10);
+    margin-top: 128px;
+    text-align: center;
+}
+/* instagram related styles */
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.instagram-description{
+    color: rgba(39,39,39,0.60);
+    text-align: center;
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+} 
+.instagram-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    gap: 24px;
+    background-color: #FFF;
+}
+.instagram-img{
+    width: 200px;
+    height: 200px;
+}
+/* deals related styles */
+.deals-container{
+    text-align: center;
+    background-image: url(../images/Rectangle\ 9.png);
+}
+.deals-text{
+    color: #272727;
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800px;
+    padding-top: 85px;
+}
+.deals-description{
+    color: rgba(39,39,39,0.60);
+    text-align: center;
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    margin-top: 16px 605px;
+}
+.field{
+    width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #FFF;
+    margin-top: 48px;
+    margin-bottom: 121px;
+}
+.btn-deals{
+    width: 100px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700px;
+    background-color: #ffa500;
+    border-radius: 8px;
+}
+.btn-deals:hover{
+    color: rgb(241, 14, 241);
+}
+/* footer section styles */
+.shop-title{
+    color: #E55473;
+    text-align: center;
+    font-family: lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800px;
+    padding-top: 128px;
+}
+.shop{
+    color: #FFF;
+    text-align: center;
+    font-family: lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800px;
+}
+.shop-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    margin-top: 24px;
+}
+.copy-rigrt{
+    color: rgb(218, 61, 61);
+    text-align: center;
+    font-family: lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    margin-top: 32px;
+    padding-bottom: 128px;
+}
+.flower-shop{
+    background: #111010;
+    height: 400px;
+}
+
+
+
