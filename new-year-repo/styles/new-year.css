@@ -122,3 +122,33 @@ img{
     font-weight: 700;
     line-height: normal;
 }
+/* background img section */
+.div-img{
+    background: url(../images/watch.png);
+    width: 800px;
+    margin-left: 170px;
+    border-radius:5px;
+}
+.img-text{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 58px;
+    margin-left: 64px;
+}
+.btn{
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    padding: 20px 36px; 
+    margin-left: 64px;  
+    margin-bottom: 58px;
+    background-color: bisque;
+}
